@@ -5,8 +5,9 @@ work on the same code base at the same time without accidentally overwriting eac
 Jenkins: Jenkins is a continuous integration and continuous delivery (CI/CD) server that automates the build, test, 
 and deployment of code. This allows developers to release new features and bug fixes more frequently and reliably.
 
-Terraform: Terraform is an infrastructure as code tool that is used to create, manage, and update infrastructure. 
-This allows engineers to define their infrastructure in code, which makes it easier to reproduce and manage.
+Terraform: Terraform is an infrastructure as code tool that is used to create, manage, and update infrastructure. This allows engineers to define their infrastructure in code, which makes it easier to reproduce and manage. Terraform is used to create the infrastructure for the AWS Quiz application, including the AWS ECS cluster. This ensures that the infrastructure is consistent and reliable.
+
+AWS ECS: AWS ECS is a service that allows you to run containers on a managed cluster of Amazon Elastic Compute Cloud (EC2) instances or Fargate. This makes it easy to scale the AWS Quiz application up or down as needed, which reduces costs and meets business demands.
 
 The automated solution that I contributed to uses these three tools to create an AWS Quiz application that is 
 serverless and scalable. This means that the application does not require any servers to run, which can save costs. 
